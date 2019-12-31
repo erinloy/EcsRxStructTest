@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EcsRx.Infrastructure" Version="3.5.41" />
+    <PackageReference Include="EcsRx.Infrastructure.Ninject" Version="3.5.41" />
+    <PackageReference Include="EcsRx.Plugins.Batching" Version="3.5.41" />
+    <PackageReference Include="System.Reactive" Version="4.3.2" />
+  </ItemGroup>
+
 </Project>
